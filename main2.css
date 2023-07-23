@@ -38,7 +38,10 @@ padding: 10%;}
 #content2{background:  #d3eaf2;
     grid-area: content2;
         text-align: center;
-padding-top: 25%;}
+padding-top: 25%;
+color: #165a72;
+font-weight: 600;
+font-size: 25px;}
 
 footer{background: #040f13;
   grid-area: footer;
@@ -78,3 +81,28 @@ main{font-size: 30px;
 
 a:link{color: #0f3c4c;}
 
+input[type=text] {width: 100%;
+    text-align: center;}
+input[type=submit] {background-color: #0b2d39;
+    color: #d3eaf2;
+    cursor:pointer;}
+input[type=reset] {background-color: #0b2d39;
+    color: #d3eaf2;
+    cursor:pointer;}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 120px;}
+
+div.gallery:hover {
+  border: 1px solid #777;}
+
+div.gallery img {
+  width: 100%;
+  height: auto;}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
