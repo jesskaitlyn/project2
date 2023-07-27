@@ -22,7 +22,7 @@ main{background: #d3eaf2;
 #sidebar{background:#d3eaf2;
 grid-area: sidebar;
 text-align: center;
-padding: 12%;
+padding: 5%;
 font-size: 20px;
 font-weight: 700;
 color: #165a72;}
@@ -31,9 +31,9 @@ color: #165a72;}
   grid-area: content1;
     text-align: center;
 color: #165a72;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
-padding: 10%;}
+padding: 6%;}
 
 #content2{background:  #d3eaf2;
     grid-area: content2;
@@ -41,7 +41,7 @@ padding: 10%;}
 padding-top: 25%;
 color: #165a72;
 font-weight: 600;
-font-size: 25px;}
+font-size: 20px;}
 
 footer{background: #040f13;
   grid-area: footer;
@@ -69,7 +69,7 @@ color:#d3eaf2;
 font-size: 25px;}
 
 header{text-align: center;
-font-size: 30px;
+font-size: 3px;
 color: aliceblue;}
 
 body{background-color: #0b2d39;}
@@ -81,20 +81,21 @@ main{font-size: 30px;
 
 a:link{color: #0f3c4c;}
 
-input[type=text] {width: 100%;
-    text-align: center;}
-input[type=submit] {background-color: #0b2d39;
+input[type=text] {width: 80%;
+    text-align: center; font-size: 15px;}
+input[type=submit] {background-color: #0b2d39; font-size: 15px;
     color: #d3eaf2;
     cursor:pointer;}
 input[type=reset] {background-color: #0b2d39;
     color: #d3eaf2;
-    cursor:pointer;}
+    cursor:pointer; font-size: 15px;}
 
 div.gallery {
-  margin: 5px;
+  margin: 10px;
+    margin-left: 65px;
   border: 1px solid #ccc;
   float: left;
-  width: 100px;}
+  width: 150px;}
 
 div.gallery:hover {
   border: 1px solid #777;}
@@ -104,5 +105,5 @@ div.gallery img {
   height: auto;}
 
 div.desc {
-  padding: 15px;
+  padding: 5px;
   text-align: center;}
